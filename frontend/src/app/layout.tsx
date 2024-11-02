@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
+import {ClerkProvider} from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: "Eduvora",
@@ -14,6 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body>
         <Header />
@@ -21,5 +23,6 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  );
+    </ClerkProvider>
+);
 }
