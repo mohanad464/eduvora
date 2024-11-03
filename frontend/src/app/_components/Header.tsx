@@ -42,25 +42,16 @@ export const Header = () => {
                       className="text-gray-500 transition hover:text-gray-500/75"
                       href="#"
                     >
-                      History
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      className="text-gray-500 transition hover:text-gray-500/75"
-                      href="#"
-                    >
-                      Services
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      className="text-gray-500 transition hover:text-gray-500/75"
-                      href="#"
-                    >
                       Courses
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      className="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      Programming
                     </Link>
                   </li>
                 </ul>
